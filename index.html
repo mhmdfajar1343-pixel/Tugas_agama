@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KERIPIK LOKAL by Muhamad Fajar Saputra, Najla Febiasty Hakiki, Satrio Andika Putra - Renyah, Higienis, Asli Lokal</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <b>KERIPIK LOKAL <span>by Fajar</span></b>
+  <nav>
+    <a href="#rasa">Varian Rasa</a>
+    <a href="#tentang">Tentang</a>
+    <a href="#pesan">Pesan</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>KERIPIK LOKAL<br><span>by Muhamad Fajar Saputra, Najla Febiasty Hakiki, Satrio Andika Putra</span></h1>
+  <p>Renyah, Higienis, Asli Lokal</p>
+  <p>Keripik singkong asli buatan UMKM lokal. Tanpa pengawet, digoreng sempurna, renyahnya bikin nagih!</p>
+  <a class="btn" href="#pesan">Pesan Sekarang - Rp 15.000</a>
+  <div class="features">
+    <div>🍠<br><b>100% Singkong Asli</b></div>
+    <div>✨<br><b>Higienis</b></div>
+    <div>📍<br><b>Asli Lokal</b></div>
+  </div>
+</section>
+
+<section class="section" id="rasa">
+  <h2>Varian Rasa Favorit</h2>
+  <p>Pilih rasa sesuai seleramu!</p>
+  <div class="grid">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=600" alt="Original">
+      <span class="tag original">BEST SELLER</span>
+      <h3>Rasa ORIGINAL</h3>
+      <p>Gurih Original, renyahnya pas, rasa singkong asli yang bikin nagih.</p>
+      <div class="price">Rp 15.000 / 100g</div>
+      <a class="btn" href="#pesan" onclick="pilihRasa('Original')">Pilih Original</a>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1582058091505-f7b38c9a6a0a?w=600" alt="Pedas Balado">
+      <span class="tag pedas">PEDAS NAMPOL</span>
+      <h3>Rasa PEDAS BALADO</h3>
+      <p>Pedas Balado nampol, gurih pedasnya bikin ketagihan, cocok buat ngemil.</p>
+      <div class="price">Rp 17.000 / 100g</div>
+      <a class="btn" href="#pesan" onclick="pilihRasa('Pedas Balado')">Pilih Pedas Balado</a>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1621447504864-d8686e12698c?w=600" alt="Keju">
+      <span class="tag keju">FAVORIT ANAK</span>
+      <h3>Rasa KEJU</h3>
+      <p>Keju creamy lumer, gurih keju berpadu renyah singkong, favorit anak-anak.</p>
+      <div class="price">Rp 18.000 / 100g</div>
+      <a class="btn" href="#pesan" onclick="pilihRasa('Keju')">Pilih Keju</a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="tentang">
+  <h2>Tentang Kami</h2>
+  <p><b>KERIPIK LOKAL by Muhamad Fajar Saputra</b> adalah UMKM keripik singkong yang dibuat dengan cinta oleh masyarakat lokal. Kami menggunakan singkong pilihan, diiris tipis, digoreng hingga renyah, dan dikemas higienis agar tetap segar sampai ke tanganmu.</p>
+</section>
+
+<section class="section" id="pesan">
+  <div class="order">
+    <h2>Pesan Keripik Lokal by Fajar</h2>
+    <p>Isi form, langsung terhubung ke WhatsApp kami.</p>
+    <input type="text" id="nama" placeholder="Nama Kamu">
+    <br>
+    <select id="rasa">
+      <option>Original - Rp 15.000</option>
+      <option>Pedas Balado - Rp 17.000</option>
+      <option>Keju - Rp 18.000</option>
+    </select>
+    <br>
+    <input type="number" id="jumlah" value="1" min="1" placeholder="Jumlah">
+    <br>
+    <button class="btn" onclick="pesanWA()">Pesan via WhatsApp</button>
+    <p id="hasil"></p>
+  </div>
+</section>
+
+<footer>© 2026 KERIPIK LOKAL by Muhamad Fajar Saputra • UMKM Lokal Indonesia • Renyah, Higienis, Asli Lokal</footer>
+
+<script src="script.js"></script>
+</body>
+</html> 

@@ -1,0 +1,33 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',Arial,sans-serif}
+body{background:#FFF8ED;color:#3A2A1A}
+header{background:#fff;padding:16px 24px;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;box-shadow:0 2px 10px rgba(0,0,0,.08);z-index:10}
+header b{font-size:22px;color:#E67E22;letter-spacing:1px}
+header b span{color:#5D8A5A}
+nav a{margin-left:18px;text-decoration:none;color:#3A2A1A;font-weight:600}
+.hero{text-align:center;padding:60px 20px;background:linear-gradient(180deg,#FFE8C2,#FFF8ED)}
+.hero h1{font-size:48px;line-height:1.1;color:#E67E22}
+.hero h1 span{color:#5D8A5A}
+.hero p{margin:16px auto;max-width:600px;font-size:18px}
+.btn{display:inline-block;background:#E67E22;color:#fff;padding:12px 24px;border-radius:30px;text-decoration:none;font-weight:700;margin-top:10px;border:none;cursor:pointer}
+.btn:hover{background:#D35400}
+.section{padding:50px 20px;max-width:1100px;margin:auto}
+.section h2{text-align:center;font-size:32px;margin-bottom:8px}
+.section > p{text-align:center;color:#777;margin-bottom:30px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.card{background:#fff;border-radius:20px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,.08);text-align:center;padding-bottom:20px}
+.card img{width:100%;height:220px;object-fit:cover}
+.card .tag{display:inline-block;padding:5px 12px;border-radius:20px;font-size:12px;font-weight:700;margin:14px 0 8px}
+.original{background:#DCEEDB;color:#3E6B3A}
+.pedas{background:#FDE0D0;color:#B93A1A}
+.keju{background:#FFF0B8;color:#8A6500}
+.card h3{font-size:22px}
+.card p{padding:8px 20px;color:#666;font-size:15px}
+.price{font-size:22px;font-weight:800;color:#E67E22;margin:8px 0}
+.order{background:#3A2A1A;color:#fff;border-radius:20px;padding:30px;text-align:center}
+.order h2{color:#FFC46B}
+.order input,.order select{width:100%;max-width:400px;padding:12px;border-radius:10px;border:none;margin:8px 0}
+#hasil{margin-top:12px;color:#FFC46B}
+.features{display:flex;flex-wrap:wrap;gap:16px;justify-content:center;margin-top:20px}
+.features div{background:#fff;border:1px solid #eee;border-radius:14px;padding:16px 20px;text-align:center;min-width:150px}
+footer{text-align:center;padding:20px;color:#999;font-size:14px}
+@media(max-width:600px){.hero h1{font-size:34px}}
